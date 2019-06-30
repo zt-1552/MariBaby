@@ -4695,6 +4695,56 @@ readers do not read off random characters that represent icons */
 
 body {
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Spectral', serif;
   color: #333333;
   line-height: 1.25em; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .header a {
+    color: #333333; }
+
+.header__control-row {
+  height: 60px;
+  background-color: #F4E3DC; }
+  .header__control-row .container {
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.nav_upper ul {
+  padding: 0;
+  margin-left: 10px; }
+  .nav_upper ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block; }
+    .nav_upper ul li a {
+      text-decoration: none; }
+
+.nav_upper .menu__upper .menu__item {
+  padding-right: 40px; }
+  .nav_upper .menu__upper .menu__item:last-child {
+    padding-right: 0; }
+
+.nav_upper .menu__upper .menu__item-right {
+  padding-right: 20px; }
+  .nav_upper .menu__upper .menu__item-right a {
+    text-transform: none; }
+
+.menu__item-icon {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center; }
+  .menu__item-icon img {
+    padding-right: 5px; }
