@@ -4784,5 +4784,26 @@ body {
   justify-content: space-between;
   align-items: center; }
 
+.social ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 18PX; }
+  .social ul li a {
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #333333;
+    border-radius: 50%; }
+    .social ul li a i {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      color: #585757;
+      font-size: 20px; }
+      .social ul li a i:hover {
+        color: blue; }
+
 .header__main-menu {
   height: 40px; }
