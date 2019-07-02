@@ -144,6 +144,37 @@ body {
   }
 }
 
+.btn {
+  width: 170px;
+  height: 40px;
+  background-color: #F4E3DC;
+  border: 1px solid #E5E5E5;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  &:hover {
+    background-color: #fcd5c4;
+    cursor: pointer;
+  }
+}
+
 .header__main-menu {
   height: 40px;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  & ul {
+    text-align: center;
+    & li {
+      list-style: none;
+      display: inline-block;
+      font-size: 17px;
+      padding-right: 57px;
+      &:last-child {
+        padding-right: 0;
+      }
+      & a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
