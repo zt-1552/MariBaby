@@ -51,6 +51,7 @@ body {
     }
   }
   & .menu__upper {
+    margin: 0;
     & .menu__item {
       padding-right: 40px;
       &:last-child {
@@ -78,12 +79,16 @@ body {
 
 .header__main-row {
   height: 200px;
+  position: relative;
 }
 
 .header__search {
   width: 170px;
   height: 30px;
-  position: relative;
+  position: absolute;
+  top: 13%;
+  left: 0%;
+  z-index: 999;
   & input {
     width: 100%;
     height: 100%;
@@ -113,10 +118,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  padding-top: 55px;
+  z-index: 0;
 }
 
 .social {
+  padding-top: 20px;
   & ul {
+    padding: 0;
     & li {
       list-style: none;
       display: inline-block;
@@ -156,6 +166,9 @@ body {
     cursor: pointer;
   }
 }
+.button {
+  padding-top: 20px;
+}
 
 .header__main-menu {
   height: 40px;
@@ -177,4 +190,20 @@ body {
       }
     }
   }
+}
+
+.family {
+  height: 650px;
+  background-image: url(/img/vitki.jpg);
+  background-size: cover;
+  & h1 {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.girl {
+  height: 600px;
 }
